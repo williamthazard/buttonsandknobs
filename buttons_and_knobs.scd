@@ -82,7 +82,7 @@ k.view.decorator_(FlowLayout(k.bounds,5@5,0@0)))
 					if(view.value == 3)
 					{view.value = 1};
 					if(i == 0,
-						{("toggle " ++ m ++ " at " ++ view.value).postln},
+						{("toggle " ++ m ++ " set to " ++ view.value).postln},
 						{("toggle " ++ (m+16) ++ " set to " ++ view.value).postln}
 					)
 				}
